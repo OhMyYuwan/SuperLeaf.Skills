@@ -1,0 +1,21 @@
+id: OhMyYuwan@skill-optimizer
+name: skill-optimizer
+display_name: Skill Optimizer
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: 在 Skill Project 中选择 SuperLeaf Data Project 作为外部数据源，分析失败模式和好坏样例，并优化 SKILL.md 与 references。
+tags:
+  - skill
+  - optimization
+  - data-project
+  - evaluation
+  - chinese
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 068ceec3850b1bdb53a43393a51bb6b33982996218776064b9c5ad62c0d39966
+updated_at: "2026-06-02"

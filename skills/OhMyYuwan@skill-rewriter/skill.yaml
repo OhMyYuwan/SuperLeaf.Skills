@@ -1,0 +1,22 @@
+id: OhMyYuwan@skill-rewriter
+name: skill-rewriter
+display_name: Skill Rewriter
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: 根据 Skill 优化诊断结果改写 SKILL.md 和 references/，最小化修改并输出改写总结。
+tags:
+  - skill
+  - optimization
+  - workflow-component
+  - skill-editing
+  - prompt-engineering
+  - superleaf
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: e419de8c614535ff9a4c1cf2c41c15bce5c5306ed1d99fdfcfa98f2ee0a7de6e
+updated_at: "2026-06-19"

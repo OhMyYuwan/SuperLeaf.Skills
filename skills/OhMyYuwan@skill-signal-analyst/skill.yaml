@@ -1,0 +1,22 @@
+id: OhMyYuwan@skill-signal-analyst
+name: skill-signal-analyst
+display_name: Skill Signal Analyst
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: 从 SuperLeaf Skill Project 的 _skill_data/ 中读取标注数据，提取失败模式、好坏样例和优化建议，输出结构化诊断 JSON。
+tags:
+  - skill
+  - optimization
+  - workflow-component
+  - diagnosis
+  - data-analysis
+  - superleaf
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 97296c217a2c9798e88051df604de90795a62e63117acf80a51f2c723afed83b
+updated_at: "2026-06-19"

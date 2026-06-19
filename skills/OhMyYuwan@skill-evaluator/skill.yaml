@@ -1,0 +1,22 @@
+id: OhMyYuwan@skill-evaluator
+name: skill-evaluator
+display_name: Skill Evaluator
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: 运行 eval cases 检查 Skill 优化效果，使用 phoenix 风格评估器输出评估报告。
+tags:
+  - skill
+  - optimization
+  - workflow-component
+  - evaluation
+  - quality-assurance
+  - superleaf
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 335b27ac009ac99bb8b3fcf7b0a496cc4e3cf3f63c04bd1dc6ac35213cc38e6e
+updated_at: "2026-06-19"
