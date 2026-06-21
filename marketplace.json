@@ -1055,6 +1055,35 @@
       "skill_name": "skill-creator",
       "install_command": "npx --yes skills add https://github.com/anthropics/skills --skill skill-creator --agent codex --copy --yes",
       "source_type": "external"
+    },
+    {
+      "id": "OhMyYuwan@discussion-group-leader",
+      "name": "discussion-group-leader",
+      "display_name": "Discussion Group Leader",
+      "version": "1.0.0",
+      "author_github": "OhMyYuwan",
+      "description": "讨论小组 Leader Agent 的路由决策 Skill。根据用户问题、成员角色指令和 Skill 元数据，决定哪些成员参与本轮讨论，并为每个成员分配具体任务。",
+      "tags": [
+        "discussion-group",
+        "leader",
+        "routing",
+        "multi-agent",
+        "orchestration",
+        "superleaf"
+      ],
+      "license": "MIT",
+      "path": "skills/OhMyYuwan@discussion-group-leader",
+      "entry": "SKILL.md",
+      "skill_url": "skills/OhMyYuwan@discussion-group-leader/skill.yaml",
+      "entry_url": "skills/OhMyYuwan@discussion-group-leader/SKILL.md",
+      "readme_url": "",
+      "checksum_sha256": "3fcb025604801ad451063acc5f841462014b2922fe010b86fcf66be3a44ca044",
+      "repo_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills.git",
+      "source_url": "https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@discussion-group-leader",
+      "source_ref": "main",
+      "skill_name": "discussion-group-leader",
+      "install_command": "npx --yes skills add https://github.com/OhMyYuwan/SuperLeaf.Skills/tree/main/skills/OhMyYuwan@discussion-group-leader --agent codex --copy --yes",
+      "source_type": "local"
     }
   ]
 }

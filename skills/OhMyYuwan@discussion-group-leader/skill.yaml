@@ -1,0 +1,23 @@
+id: OhMyYuwan@discussion-group-leader
+name: discussion-group-leader
+display_name: Discussion Group Leader
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: 讨论小组 Leader Agent 的路由决策 Skill。根据用户问题、成员角色指令和 Skill 元数据，决定哪些成员参与本轮讨论，并为每个成员分配具体任务。
+tags:
+  - discussion-group
+  - leader
+  - routing
+  - multi-agent
+  - orchestration
+  - superleaf
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 3fcb025604801ad451063acc5f841462014b2922fe010b86fcf66be3a44ca044
+  sha256: ""
+updated_at: "2026-06-21"
